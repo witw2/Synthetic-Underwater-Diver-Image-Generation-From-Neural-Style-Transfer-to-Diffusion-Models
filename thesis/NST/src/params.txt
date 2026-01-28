@@ -1,0 +1,11 @@
+{
+    "content_weight": 1e2,
+    "style_weight": 1e1,
+    "learning_rate": 0.1,
+    "num_steps": 10000,
+    "size": [512,540],
+    "style":3,
+    "total_variation_weight": 1e-3,
+    "debug": false,
+    "plot": false
+}

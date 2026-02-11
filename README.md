@@ -54,4 +54,4 @@ Synthetic-Underwater-Diver-Image-Generation-From-Neural-Style-Transfer-to-Diffus
 └── README.md            # Project documentation
 ```
 
-For more information, refer to the individual script documentation and comments within the code.
+For more information, refer to the individual script comments within the code.

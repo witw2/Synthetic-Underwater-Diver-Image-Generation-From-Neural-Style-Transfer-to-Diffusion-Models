@@ -29,3 +29,29 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/witw2/Synthetic-Underwater-Diver-Image-Generation-From-Neural-Style-Transfer-to-Diffusion-Models.git
    cd Synthetic-Underwater-Diver-Image-Generation-From-Neural-Style-Transfer-to-Diffusion-Models
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Ensure that you have the necessary datasets. Datasets can be placed in the `data/` directory.
+
+## Usage
+To generate synthetic images, run the following command:
+```bash
+python generate_images.py --content_path <PATH_TO_CONTENT_IMAGE> --style_path <PATH_TO_STYLE_IMAGE>
+```
+Modify the parameters as needed to suit your requirements.
+
+## Structure
+The repository is organized as follows:
+```
+Synthetic-Underwater-Diver-Image-Generation-From-Neural-Style-Transfer-to-Diffusion-Models/
+├── data/                # Directory for datasets
+├── models/              # Directory for trained models
+├── scripts/             # Python scripts for image generation and model training
+├── requirements.txt     # Required Python packages
+└── README.md            # Project documentation
+```
+
+For more information, refer to the individual script documentation and comments within the code.
